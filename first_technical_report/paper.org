@@ -1,0 +1,47 @@
+:PROPERTIES:
+:ID: F1F602F7-6AEA-0204-80D3-5C381370DB4F
+:END:
+#+title: Technical Report: Using Claude Code with ORE Studio
+#+author: Marco Craveiro
+#+options: <:nil c:nil todo:nil ^:nil <:nil c:nil d:nil date:nil author:nil toc:nil todo:nil H:7 ^:{}
+#+startup: inlineimages
+#+export_exclude_tags: noexport
+
+#+latex_class_options: [a4paper,10pt,twoside,twocolumn]
+#+latex_header: \usepackage[style=numeric-comp,style=alphabetic,hyperref=true,backref=true,maxcitenames=3,url=true,backend=bibtex8,bibencoding=ascii,natbib=true]{biblatex}
+#+latex_header: \usepackage{acronym}
+#+latex_header: \usepackage[x11names]{xcolor}
+#+latex_header: \usepackage{tabularx}
+#+latex_header: \usepackage[acronym,nomain,nolist,nonumberlist]{glossaries}
+#+latex_header: \addbibresource{survey.bib}
+#+latex_header: \usepackage{mdframed}
+#+latex_header: \definecolor{CTcitation}{rgb}{0,0.5,0} % WebGreen
+#+latex_header: \hypersetup{linktoc = all, colorlinks = true, urlcolor = DodgerBlue4, citecolor = CTcitation, linkcolor = black}
+#+latex_header: \lstset{basicstyle=\tiny}
+#+latex_header: \definecolor{LigthYellowPastel}{HTML}{FAFAD2}
+#+latex_header: \definecolor{DarkRedPastel}{HTML}{950000}
+#+latex_header: \mdfdefinestyle{MyFrame}{linecolor=DarkRedPastel,leftmargin=60,rightmargin=40,backgroundcolor=LigthYellowPastel,innertopmargin=0pt,outerlinewidth=2pt,innertopmargin=6pt,innerbottommargin=6pt,innerrightmargin=6pt,innerleftmargin=6pt}
+#+latex_header: \newcommand*{\sic}{[\textit{sic}]\@\xspace}
+#+latex_header: \newcommand*{\cf}{\textit{c.f.}\@\xspace}
+#+latex_header: \newcommand*{\eg}{\textit{e.g.}\@\xspace}
+#+latex_header: \newcommand*{\ie}{\textit{i.e.}\@\xspace}
+#+latex_header: \newcommand*{\etal}{\textit{et al.}\@\xspace}
+#+latex_header: \glsdisablehyper
+#+latex_header: \makeglossaries
+
+#+name: acronyms
+| Key  | Short | Long |
+|------+-------+------|
+| test | TEST  | Test |
+
+* Abstract
+  :PROPERTIES:
+  :UNNUMBERED: t
+  :END:
+
+This technical report analysis our experience in using Claude Code to develop
+ORE Studio, with the objective of lowering the barrier to entry for newcomers.
+
+* Introduction
+
+Test
